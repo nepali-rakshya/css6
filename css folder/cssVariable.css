@@ -31,5 +31,24 @@ any property
 } */
 
 :root {
-  --primaryColor: #f15025;
+  --primaryColor: #1313fa;
+  --secondaryColor: orange;
+  --mainTransition: all 0.4s linear;
+}
+
+.heading {
+  color: var(--primaryColor);
+}
+
+.second-heading {
+  color: var(--primaryColor);
+}
+
+.main-text {
+  background: var(--primaryColor);
+}
+
+.second-heading:hover {
+  color: var(--secondaryColor);
+  transition: var(--mainTransition);
 }

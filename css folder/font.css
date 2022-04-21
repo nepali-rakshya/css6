@@ -4,9 +4,10 @@ Font-Awesome Icons
 Free, Easy to get up running, simple syntax
 */
 
-.fa-brands {
-  color: pink;
-  background-color: burlywood;
-  font-size: 10em;
-  border: 2px solid red;
+.fa-child {
+  color: crimson;
+  font-size: 4rem;
+  margin: auto;
+  position: absolute;
+  top: 30px;
 }

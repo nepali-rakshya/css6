@@ -52,3 +52,20 @@ any property
   color: var(--secondaryColor);
   transition: var(--mainTransition);
 }
+
+:root {
+  --rakshyafavcolor: pink;
+}
+
+div {
+  background: var(--rakshyafavcolor);
+}
+
+:root {
+  --rak: skyblue;
+}
+
+div {
+  color: var(--rak);
+  background-color: var(--rak);
+}

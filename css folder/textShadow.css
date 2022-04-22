@@ -1,0 +1,61 @@
+/* 
+text-shadow
+box-shadow
+*/
+
+h1 {
+  text-shadow: 25px 25px 3px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  text-shadow: 45px 25px 4px rgb(25, 93, 229);
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  box-shadow: 15px 15px 8px green;
+}
+
+.boxone {
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius-topright: 90px;
+  -webkit-border-top-right-radius: 90px;
+  border-top-right-radius: 90px;
+  -moz-border-radius-bottomright: 90px;
+  -webkit-border-bottom-right-radius: 90px;
+  border-bottom-right-radius: 90px;
+  -moz-border-radius-bottomleft: 88px;
+  -webkit-border-bottom-left-radius: 88px;
+  border-bottom-left-radius: 88px;
+
+  box-shadow: 5px 5px 4px red;
+  text-shadow: 3px 3px 4px crimson;
+  transition: box-shadow 3s linear;
+}
+
+.field {
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  padding: 8px 20px 8px;
+  transition: box-shadow 3s linear;
+  /* box-shadow: 5px 5px 4px greenyellow; */
+}
+
+input[type="text"]:hover {
+  box-shadow: -1px 29px 37px -12px rgba(196, 0, 0, 0.64);
+  -webkit-box-shadow: -1px 29px 37px -12px rgba(196, 0, 0, 0.64);
+  -moz-box-shadow: -1px 29px 37px -12px rgba(196, 0, 0, 0.64);
+}
+
+.boxone:hover {
+  box-shadow: -1px 29px 37px -12px rgba(196, 0, 0, 0.64);
+  -webkit-box-shadow: -1px 29px 37px -12px rgba(196, 0, 0, 0.64);
+  -moz-box-shadow: -1px 29px 37px -12px rgba(196, 0, 0, 0.64);
+}

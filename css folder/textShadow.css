@@ -59,3 +59,10 @@ input[type="text"]:hover {
   -webkit-box-shadow: -1px 29px 37px -12px rgba(196, 0, 0, 0.64);
   -moz-box-shadow: -1px 29px 37px -12px rgba(196, 0, 0, 0.64);
 }
+
+.field {
+  -webkit-background: yellow;
+  -moz-background: yellow;
+  -o-background: yellow;
+  background: yellow;
+}
